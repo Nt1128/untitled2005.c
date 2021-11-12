@@ -3,7 +3,7 @@
 int compute_total_salary();         // 연 급여 계산
 int compute_tax(int amount);         // 최종 세금 계산
 // 세금 내역서 출력
-void display_tax_returns(int total_salry, int tax_target, int tax);
+void display_tax_returns(int total_salary, int tax_target, int tax);
 
 int salary;  // 월 급여를 전역 변수로 선언
 
